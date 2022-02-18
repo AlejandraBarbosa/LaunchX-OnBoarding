@@ -1,0 +1,44 @@
+Microsoft Windows [Version 10.0.22543.1000]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Windows\System32>cd ..
+
+C:\Windows>cd ..
+
+C:\>cd users
+
+C:\Users>cd aleja
+
+C:\Users\aleja>cd onedrive
+
+C:\Users\aleja\OneDrive>cd documentos
+
+C:\Users\aleja\OneDrive\Documentos>cd launchx
+
+C:\Users\aleja\OneDrive\Documentos\LaunchX>python3 -m venv env
+Python was not found; run without arguments to install from the Microsoft Store, or disable this shortcut from Settings > Manage App Execution Aliases.
+
+C:\Users\aleja\OneDrive\Documentos\LaunchX>python3
+
+C:\Users\aleja\OneDrive\Documentos\LaunchX>python3 -m venv env
+
+C:\Users\aleja\OneDrive\Documentos\LaunchX>env\Scripts\activate
+
+(env) C:\Users\aleja\OneDrive\Documentos\LaunchX>pip freeze
+
+(env) C:\Users\aleja\OneDrive\Documentos\LaunchX>pip install python-dateutil
+Collecting python-dateutil
+  Using cached python_dateutil-2.8.2-py2.py3-none-any.whl (247 kB)
+Collecting six>=1.5
+  Using cached six-1.16.0-py2.py3-none-any.whl (11 kB)
+Installing collected packages: six, python-dateutil
+Successfully installed python-dateutil-2.8.2 six-1.16.0
+WARNING: You are using pip version 21.2.4; however, version 22.0.3 is available.
+You should consider upgrading via the 'C:\Users\aleja\OneDrive\Documentos\LaunchX\env\Scripts\python.exe -m pip install --upgrade pip' command.
+
+(env) C:\Users\aleja\OneDrive\Documentos\LaunchX>pip freeze
+python-dateutil==2.8.2
+six==1.16.0
+
+(env) C:\Users\aleja\OneDrive\Documentos\LaunchX>deactivate
+C:\Users\aleja\OneDrive\Documentos\LaunchX>env\Scripts\activateenv\Scripts\activate
